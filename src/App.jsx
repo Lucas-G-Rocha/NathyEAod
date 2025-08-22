@@ -6,6 +6,29 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import primeira from './assets/primeira.jpeg';
+import segunda from './assets/segunda.jpeg';
+import terceira from './assets/terceira.jpeg';
+import quarta from './assets/quarta.jpeg';
+import quinta from './assets/quinta.jpeg';
+import sexta from './assets/sexta.jpeg';
+import setima from './assets/setima.jpeg';
+import oitava from './assets/oitava.jpeg';
+import nona from './assets/nona.jpeg';
+import decima from './assets/decima.jpeg';
+import decimaPrimeira from './assets/decimaPrimeira.jpeg';
+import decimaSegunda from './assets/decimaSegunda.jpeg';
+import decimaTerceira from './assets/decimaTerceira.jpeg';
+import decimaQuarta from './assets/decimaQuarta.jpeg';
+import decimaQuinta from './assets/decimaQuinta.jpeg';
+import decimaSexta from './assets/decimaSexta.jpeg';
+import decimaSetima from './assets/decimaSetima.jpeg';
+import decimaOitava from './assets/decimaOitava.jpeg';
+import decimaNona from './assets/decimaNona.jpeg';
+import vigesima from './assets/vigesima.jpeg';
+import vigesimaPrimeira from './assets/vigesimaPrimeira.jpeg';
+import vigesimaSegunda from './assets/vigesimaSegunda.jpeg';
+
 function App() {
 
   const [anos, setAnos] = useState(0);
@@ -71,29 +94,28 @@ function App() {
     return () => clearInterval(interval);
   }, []);
   const images = [
-    "NathyEAod/vigesimaSegunda.jpeg",
-    "NathyEAod/decimaPrimeira.jpeg",
-    "NathyEAod/primeira.jpeg",
-    "NathyEAod/segunda.jpeg",
-    "NathyEAod/terceira.jpeg",
-    "NathyEAod/quarta.jpeg",
-    "NathyEAod/quinta.jpeg",
-    "NathyEAod/sexta.jpeg",
-    "NathyEAod/setima.jpeg",
-    "NathyEAod/oitava.jpeg",
-    "NathyEAod/decima.jpeg",
-    "NathyEAod/decimaSegunda.jpeg",
-    "NathyEAod/decimaTerceira.jpeg",
-    "NathyEAod/decimaQuarta.jpeg",
-    "NathyEAod/decimaQuinta.jpeg",
-    "NathyEAod/decimaSexta.jpeg",
-    "NathyEAod/decimaSetima.jpeg",
-    "NathyEAod/decimaOitava.jpeg",
-    "NathyEAod/decimaNona.jpeg",
-    "NathyEAod/vigesima.jpeg",
-    "NathyEAod/nona.jpeg",
-    "NathyEAod/vigesimaPrimeira.jpeg"
-
+    vigesimaSegunda,
+    decimaPrimeira,
+    primeira,
+    segunda,
+    terceira,
+    quarta,
+    quinta,
+    sexta,
+    setima,
+    oitava,
+    decima,
+    decimaSegunda,
+    decimaTerceira,
+    decimaQuarta,
+    decimaQuinta,
+    decimaSexta,
+    decimaSetima,
+    decimaOitava,
+    decimaNona,
+    vigesima,
+    nona,
+    vigesimaPrimeira,
   ]
   return (
     <>
