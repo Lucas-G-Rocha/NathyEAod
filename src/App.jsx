@@ -71,28 +71,29 @@ function App() {
     return () => clearInterval(interval);
   }, []);
   const images = [
-    "%PUBLIC_URL%/vigesimaSegunda.jpeg",
-    "%PUBLIC_URL%/decimaPrimeira.jpeg",
-    "%PUBLIC_URL%/primeira.jpeg",
-    "%PUBLIC_URL%/segunda.jpeg",
-    "%PUBLIC_URL%/terceira.jpeg",
-    "%PUBLIC_URL%/quarta.jpeg",
-    "%PUBLIC_URL%/quinta.jpeg",
-    "%PUBLIC_URL%/sexta.jpeg",
-    "%PUBLIC_URL%/setima.jpeg",
-    "%PUBLIC_URL%/oitava.jpeg",
-    "%PUBLIC_URL%/decima.jpeg",
-    "%PUBLIC_URL%/decimaSegunda.jpeg",
-    "%PUBLIC_URL%/decimaTerceira.jpeg",
-    "%PUBLIC_URL%/decimaQuarta.jpeg",
-    "%PUBLIC_URL%/decimaQuinta.jpeg",
-    "%PUBLIC_URL%/decimaSexta.jpeg",
-    "%PUBLIC_URL%/decimaSetima.jpeg",
-    "%PUBLIC_URL%/decimaOitava.jpeg",
-    "%PUBLIC_URL%/decimaNona.jpeg",
-    "%PUBLIC_URL%/vigesima.jpeg",
-    "%PUBLIC_URL%/nona.jpeg",
-    "%PUBLIC_URL%/vigesimaPrimeira.jpeg"
+    "NathyEAod/vigesimaSegunda.jpeg",
+    "NathyEAod/decimaPrimeira.jpeg",
+    "NathyEAod/primeira.jpeg",
+    "NathyEAod/segunda.jpeg",
+    "NathyEAod/terceira.jpeg",
+    "NathyEAod/quarta.jpeg",
+    "NathyEAod/quinta.jpeg",
+    "NathyEAod/sexta.jpeg",
+    "NathyEAod/setima.jpeg",
+    "NathyEAod/oitava.jpeg",
+    "NathyEAod/decima.jpeg",
+    "NathyEAod/decimaSegunda.jpeg",
+    "NathyEAod/decimaTerceira.jpeg",
+    "NathyEAod/decimaQuarta.jpeg",
+    "NathyEAod/decimaQuinta.jpeg",
+    "NathyEAod/decimaSexta.jpeg",
+    "NathyEAod/decimaSetima.jpeg",
+    "NathyEAod/decimaOitava.jpeg",
+    "NathyEAod/decimaNona.jpeg",
+    "NathyEAod/vigesima.jpeg",
+    "NathyEAod/nona.jpeg",
+    "NathyEAod/vigesimaPrimeira.jpeg"
+
   ]
   return (
     <>
